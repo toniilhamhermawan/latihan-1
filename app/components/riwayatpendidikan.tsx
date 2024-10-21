@@ -7,7 +7,7 @@ interface RowRiwayatProps {
   function RowRiwayat(props: RowRiwayatProps) {
     return (
       <>
-        <div className="bg-black -200 justify-center text-center mx-4 mt-2 rounded-md border-2 border-blue-600 grid grid-rows-3 sm:grid-cols-3 sm:grid-rows-none">
+        <div className="justify-center text-center mx-4 mt-2 rounded-md border-2 border-blue-600 grid grid-rows-3 sm:grid-cols-3 sm:grid-rows-none">
           <div className="text-sm font-semibold">{props.jenjang}</div>
           <div className="text-sm">{props.sekolah}</div>
           <div className="text-sm">{props.tahun}</div>
@@ -26,7 +26,7 @@ interface RowRiwayatProps {
   function RowPekerjaan(props: RowPekerjaanProps) {
     return (
       <>
-        <div className="bg-black -200 justify-center text-center mx-4 mt-2 rounded-md border-2 border-blue-600 grid grid-rows-4 sm:grid-cols-4 sm:grid-rows-none">
+        <div className="justify-center text-center mx-4 mt-2 rounded-md border-2 border-blue-600 grid grid-rows-4 sm:grid-cols-4 sm:grid-rows-none">
           <div className="text-sm font-semibold">{props.perusahaan}</div>
           <div className="text-sm">{props.tahun}</div>
           <div className="text-sm">{props.instansi}</div>
