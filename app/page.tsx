@@ -1,7 +1,7 @@
 import FavColor from "./components/favColor";
 import Hero from "./components/hero";
 import RiwayatPendidikan from "./components/riwayatpendidikan";
-import FormKuis from "./components/formKuis";
+// import FormKuis from "./components/formKuis";
 import "./toni-style.css";
 
 export default function MyApp() {
@@ -9,7 +9,7 @@ export default function MyApp() {
     <section>
       <Hero />
       <RiwayatPendidikan />
-      <FormKuis />
+      {/* <FormKuis /> */}
       <FavColor/>
     </section>
   );
