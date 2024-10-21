@@ -7,7 +7,7 @@ interface RowRiwayatProps {
   function RowRiwayat(props: RowRiwayatProps) {
     return (
       <>
-        <div className="bg-blue-200 justify-center text-center mx-4 mt-2 rounded-md border-2 border-blue-600 grid grid-rows-3 sm:grid-cols-3 sm:grid-rows-none">
+        <div className="bg-black -200 justify-center text-center mx-4 mt-2 rounded-md border-2 border-blue-600 grid grid-rows-3 sm:grid-cols-3 sm:grid-rows-none">
           <div className="text-sm font-semibold">{props.jenjang}</div>
           <div className="text-sm">{props.sekolah}</div>
           <div className="text-sm">{props.tahun}</div>
@@ -26,7 +26,7 @@ interface RowRiwayatProps {
   function RowPekerjaan(props: RowPekerjaanProps) {
     return (
       <>
-        <div className="bg-blue-200 justify-center text-center mx-4 mt-2 rounded-md border-2 border-blue-600 grid grid-rows-4 sm:grid-cols-4 sm:grid-rows-none">
+        <div className="bg-black -200 justify-center text-center mx-4 mt-2 rounded-md border-2 border-blue-600 grid grid-rows-4 sm:grid-cols-4 sm:grid-rows-none">
           <div className="text-sm font-semibold">{props.perusahaan}</div>
           <div className="text-sm">{props.tahun}</div>
           <div className="text-sm">{props.instansi}</div>
@@ -45,7 +45,7 @@ interface RowRiwayatProps {
           </div>
           <RowRiwayat jenjang="SD" sekolah="SDN Citarik" tahun="24525" />
           <RowRiwayat jenjang="SMP" sekolah="SMPN Negeri Citarik" tahun="24525" />
-          <RowRiwayat jenjang="SMK" sekolah="SMK TERPADU CLK" tahun="24525" />
+          <RowRiwayat jenjang="SMK" sekolah="SMK Terpadu Clk" tahun="24525" />
         </div>
         <div>
           <div className="text-2xl mt-10 mx-auto text-center">
